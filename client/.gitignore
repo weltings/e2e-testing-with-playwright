@@ -16,5 +16,7 @@ cypress.json
 *.ntvs*
 *.njsproj
 *.sln
-
-
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

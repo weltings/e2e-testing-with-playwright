@@ -8,3 +8,7 @@ client/node_modules/
 server/node_modules/
 *.iml
 .DS_Store
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
