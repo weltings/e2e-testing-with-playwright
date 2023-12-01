@@ -16,5 +16,8 @@ jobs:
       run: cd client && npm ci && cd ../server && npm ci && cd ..
     - name: Install browsers
       run: cd client && npx playwright install --with-deps && cd ..
+    - name: start stuff
+      run: cd server && npm start && cd ..
+      run: cd client && npm start && cd ..
     - name: Run Playwright
       run: cd client && npx playwright test example
